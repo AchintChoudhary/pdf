@@ -1,7 +1,7 @@
 import axios from "axios";
 
 class AuthService {
-  url = import.meta.env.REACT_APP_API_URL || "http://localhost:8000/";
+  url = import.meta.env.VITE_API_URL || "http://localhost:8000/";
   configMultipartData = {
     headers: {
       "Content-Type": "multipart/form-data",
