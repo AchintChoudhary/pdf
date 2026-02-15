@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# Uploads / generated files
+frontend/public/pdfs/
+frontend/public/uploads/
+
+# Logs
+*.log
+
