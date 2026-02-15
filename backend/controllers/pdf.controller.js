@@ -1,7 +1,7 @@
 const { validationResult } = require("express-validator");
 const fs = require("fs");
 const { PDFParse } = require("pdf-parse");
-const singlePdfModel = require("../models/singlePdf.model.js");
+const singlePdfModel = require("../models/singlePDF.model.js");
 const pdfFileModel = require("../models/pdf.model.js");
 const singlePdfChatModel = require("../models/singlePDFChat.model.js");
 const helper = require("../utils/helper.js");
